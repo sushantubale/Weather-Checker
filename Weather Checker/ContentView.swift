@@ -51,7 +51,9 @@ struct ContentView: View {
                 }
                 .sheet(isPresented: $weatherViewModel.gotDetails, content: {
                     if let weatherData = weatherViewModel.weatherData {
-                        CityWeatherDetails(weatherData: weatherData)
+                        CityWeatherDetails(weatherData: weatherData, error: nil)
+                    } else if let error =  weatherViewModel.errorFetchingData {
+                        CityWeatherDetails(weatherData: nil, error: error)
                     }
                 })
             }

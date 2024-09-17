@@ -50,7 +50,9 @@ struct ZipCodeWeatherView: View {
             }
             .sheet(isPresented: $weatherViewModel.gotZipCodeData, content: {
                 if let weatherData = weatherViewModel.weatherData {
-                    CityWeatherDetails(weatherData: weatherData)
+                    CityWeatherDetails(weatherData: weatherData, error: nil)
+                } else if let errorFetchingData = weatherViewModel.errorFetchingData {
+                    CityWeatherDetails(weatherData: nil, error: errorFetchingData)
                 }
             })
         }
