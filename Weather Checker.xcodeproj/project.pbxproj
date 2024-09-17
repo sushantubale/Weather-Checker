@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		0A1564B62C98B8DC001854D4 /* CityWeatherDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A1564B52C98B8DC001854D4 /* CityWeatherDetails.swift */; };
+		0A1564B82C98EF31001854D4 /* ZipCodeWeatherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A1564B72C98EF31001854D4 /* ZipCodeWeatherView.swift */; };
+		0A1564BA2C992DD0001854D4 /* ZipCodeWeatherDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A1564B92C992DD0001854D4 /* ZipCodeWeatherDetailsView.swift */; };
 		0A9787852C8757190070A998 /* Weather_CheckerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A9787842C8757190070A998 /* Weather_CheckerApp.swift */; };
 		0A9787872C8757190070A998 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A9787862C8757190070A998 /* ContentView.swift */; };
 		0A9787892C87571B0070A998 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A9787882C87571B0070A998 /* Assets.xcassets */; };
@@ -39,6 +41,8 @@
 
 /* Begin PBXFileReference section */
 		0A1564B52C98B8DC001854D4 /* CityWeatherDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityWeatherDetails.swift; sourceTree = "<group>"; };
+		0A1564B72C98EF31001854D4 /* ZipCodeWeatherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZipCodeWeatherView.swift; sourceTree = "<group>"; };
+		0A1564B92C992DD0001854D4 /* ZipCodeWeatherDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZipCodeWeatherDetailsView.swift; sourceTree = "<group>"; };
 		0A9787812C8757190070A998 /* Weather Checker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Weather Checker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A9787842C8757190070A998 /* Weather_CheckerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weather_CheckerApp.swift; sourceTree = "<group>"; };
 		0A9787862C8757190070A998 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -159,6 +163,8 @@
 			isa = PBXGroup;
 			children = (
 				0A1564B52C98B8DC001854D4 /* CityWeatherDetails.swift */,
+				0A1564B72C98EF31001854D4 /* ZipCodeWeatherView.swift */,
+				0A1564B92C992DD0001854D4 /* ZipCodeWeatherDetailsView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -310,10 +316,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				0A9787872C8757190070A998 /* ContentView.swift in Sources */,
+				0A1564BA2C992DD0001854D4 /* ZipCodeWeatherDetailsView.swift in Sources */,
 				0A9787B52C8759600070A998 /* WeatherLatLonViewModel.swift in Sources */,
 				0A9787852C8757190070A998 /* Weather_CheckerApp.swift in Sources */,
 				0A9787B32C8758150070A998 /* Constants.swift in Sources */,
 				0A1564B62C98B8DC001854D4 /* CityWeatherDetails.swift in Sources */,
+				0A1564B82C98EF31001854D4 /* ZipCodeWeatherView.swift in Sources */,
 				0A9787B82C8762610070A998 /* WeatherModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
